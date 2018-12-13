@@ -1,0 +1,554 @@
+
+body {
+    margin: 0px 5% 0px 5%;
+    background: #ffffff;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,40..);
+
+@font-face {
+    font-family: rune;
+    src: url(rune.ttf)
+}
+
+.rune {
+    font-family: rune;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20pt;
+
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+    font-family: Roboto, sans-serif;
+    font-size: 14pt;
+    padding-right: 10px;
+}
+
+.flags5 p {
+    margin: 2px;
+    font-size: 12pt;
+    font-family: Roboto, sans-serif;
+}
+
+.button p {
+    font-size: 12pt;
+    font-family: Roboto, sans-serif;
+    color: white;
+    margin: 0;
+
+}
+
+.wywelist p {
+    font-family: Roboto, sans-serif;
+    font-size: 14pt;
+    margin: 5px;
+}
+
+/*Стиль для шапки*/
+
+.hat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+    .logoP1 {
+        margin: 0;
+        color: black; 
+        font-family: Roboto, sans-serif;
+        font-size: 30pt;
+    }
+
+    .logoP2 {
+        margin: 0;
+        color: black; 
+        font-family: Roboto, sans-serif;
+        font-size: 16pt;
+    }
+
+h1 {
+    margin: 0;
+}
+
+h3{
+    margin: 20 0 0 0;
+}
+
+.hatLink {
+    width: 500px;
+    padding-right: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*Стиль для Флагов*/
+
+.flags {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: url(elvetia-DSCN56611.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.flagsphoto {
+    border: solid;
+    border-width: 1px;
+}
+
+.flagsflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flagsContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flags5 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.block3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 300px;
+    padding-left: 100px;
+}
+    .islenska {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .islenska:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+      }
+
+    .norsik {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .norsik:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+      }
+
+    .sverska {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .sverska:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+      }
+
+.block2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 300px;
+    padding-left: 100px;
+}
+    .dansk {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .dansk:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+      }
+
+    .suomi {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .suomi:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+      }
+
+
+.flagsbgimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+/*Стиль для кнопки*/
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 50px;
+    width: 200px;
+}
+
+.buttonborder {
+    border: 0;
+    border-radius: 40px;
+    background-color: #841708;
+    width: 200px;
+}
+
+.buttonborder:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+
+/*Стиль для раздела форм обучения*/
+
+.forms {
+    background-color: #dae6e6;
+}
+
+.formtitle {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20pt;
+    color: #841708;
+}
+
+.formsection {
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formsection:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+
+.formphoto {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.formtexttitle {
+    padding: 30px;
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    font-size: 18pt;
+    color: #841708;
+}
+
+.formtexttitle1 {
+    padding: 30px 30px 0px 30px;
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    font-size: 18pt;
+    color: #841708;
+}
+
+.formtext {
+    padding: 0px 30px 30px 30px;
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    font-size: 14pt;
+}
+
+.formimg {
+    height: auto;
+}
+
+/*Почему мы??*/
+
+.wywe {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.wyweleftsection {
+    background: url(pau-sayrol-418802-unsplash.jpg) no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.wywerightsection {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-right: 50px;
+    background-color: #aec8c9;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    width: 50%;
+}
+
+.wywetitle {
+    font-family: Roboto, sans-serif;
+    font-size: 20pt;
+    color: #841708;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.wywelist img {
+    float: left;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+.wywelist {
+    padding-left: 50px;
+}
+
+.wywebutton {
+    border: 0;
+    border-radius: 40px;
+    background-color: #841708;
+    height: 60px;
+    width: 200px;
+}
+
+.wywebutton:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+
+/* Слайдер */
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    background-color: #dae6e6;
+}
+
+.slidertitle {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 20pt;
+    color: #841708;
+}
+
+.review {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.review1 {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.review2 {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.review3 {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.reviewfoto {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.sliderC2 {
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 270px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sliderC2 > input {
+    display: none;
+}
+
+.sliderC2 > input + label,
+.sliderC2 > input + label + label {
+    display: none;
+}
+
+
+.sliderC2 > input:checked + label,
+.sliderC2 > input:checked + label + label {
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    opacity: 0.4;
+    transition: opacity 0.8s ease-out 0s;
+
+    cursor: pointer;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.sliderC2 > input:checked + label:hover,
+.sliderC2 > input:checked + label + label:hover {
+    opacity: 0.6;
+}
+
+
+.sliderC2 > input:checked + label {
+    left: 0px;
+    background: url('https://lh3.googleusercontent.com/-tacAA4lVYgc/VeVDqFrDRRI/AAAAAAAAAT4/RBongekAUqI/s800-Ic42/prev.png')
+}
+
+.sliderC2 > input:checked + label + label {
+    right: 0px;
+    background: url('https://lh3.googleusercontent.com/-gy6RMZnCdAc/VeVDqJF1S5I/AAAAAAAAAT0/D4nN8T9RGro/s800-Ic42/next.png')
+}
+
+
+.sliderC2 > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 0;
+    width: 400%;
+    transition: left 800ms cubic-bezier(0.77, 0, 0.175, 1) 0s;
+}
+
+.sliderC2 > input:nth-of-type(2):checked ~ div { left: -101%; }
+.sliderC2 > input:nth-of-type(3):checked ~ div { left: -201%; }
+
+.sliderC2 > div > div {
+    display: inline-block;
+    position: relative;
+}
+
+.sliderC2 > div > div > p {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: #000;
+}
+
+/* Карта */
+
+.map {
+    height: 385px;
+    background: url(map.png) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+/* Подвал */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 385px;
+    background-image: url(footer.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: contain;
+    background-size: 100%;
+}
+
+.footermenu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.footermenu p {
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    font-size: 16pt;
+    font-family: Roboto, sans-serif;
+}
+
+.footersociallogo {
+    padding-left: 40px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
